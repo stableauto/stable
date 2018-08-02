@@ -29,6 +29,7 @@ function createJobs(_data) {
       '<div data-link="'+link+'" class="job '+team+' '+location+' '+commitment+'">' +
         '<h2 class="job-title" href="'+link+'"">'+title+'</h2>' +
         '<p class="tags"><span>'+location+'</span><span>'+commitment+'</span></p>' +
+		'<a class="btn" href="'+link+'">Apply</a>' +
       '</div>'  
     );
   }
