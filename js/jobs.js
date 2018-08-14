@@ -6,6 +6,9 @@ var pageUrl = window.location.href;
 var leverParameter = '';
 var trackingPrefix = '?lever-'
 
+var urlSplit = pageUrl.split('?')[1];
+var jobID = urlSplit.split('=')[1];
+
 if( pageUrl.indexOf(trackingPrefix) >= 0){
   // Found Lever parameter
   var pageUrlSplit = pageUrl.split(trackingPrefix);
@@ -17,6 +20,8 @@ function createJobs(_data) {
     var posting = _data[i] ;
     var title = posting.text;
     var description = posting.description;
+	var lists = posting.lists;
+	var additional = posting.additional
     //Making each job description shorter than 250 characters
     var shortDescription = $.trim(description).substring(0, 250)
     .replace('\n', ' ') + "...";
@@ -24,12 +29,21 @@ function createJobs(_data) {
     var commitment = posting.categories.commitment;
     var team = posting.categories.team;
     var link = posting.hostedUrl;
-	var link2 = 'jobs.html?jobID='+$.trim(link).substring(37,link.length);
+	var link2 = posting.applyUrl;
+	var uniqueID = $.trim(link).substring(37,link.length);
+	
+	if (uniqueID != jobID) {
+		continue;
+    }
 
     $('#jobs-container .jobs-list').append(
-      '<div data-link="'+link+'" class="job '+team+' '+location+' '+commitment+'">' +
+      '<div>' +
         '<h2 class="job-title" href="'+link+'"">'+title+'</h2>' +
         '<p class="tags"><span>'+location+'</span><span>'+commitment+'</span></p>' +
+		'<span>'+description+'</span>' +
+		'<span>'+lists[0]["text"]+'</span>' +
+		'<span>'+lists[0]["content"]+'</span>' +
+		'<span>'+additional+'</span>' +
 		'<a class="btn" href="'+link2+'">Apply</a>' +
       '</div>'  
     );
@@ -43,11 +57,4 @@ $.ajax({
   success: function(data){
     createJobs(data);
   }
-});
-
-//Making each job description a link
-$("#jobs-container").on("click", ".job", function() {
-    var link = $(this).data("link");
-	var link2 = 'jobs.html?jobID='+$.trim(link).substring(37,link.length);
-    window.location.href = link2;
 });
