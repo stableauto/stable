@@ -13,6 +13,8 @@ a:hover {
   text-decoration: none;
 }
 
+
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -35,6 +37,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -48,6 +54,47 @@ body {
 
 .cover-container {
 
+}
+
+input[type=text], select, textarea {
+    width: 15vw;
+    padding: 0.0vw 0vw;
+    margin: 0.0vw 0;
+    
+    border-radius: 0px;
+    box-sizing: border-box;
+	border: none;
+	border-bottom: 0.1vh solid white;
+	background: none;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 0.8vw;
+	color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+input[type=submit] {
+    width: 0px;
+    background-color: rgba(255,255,255,0);
+    color: white;
+    padding: 0px 0px;
+    margin: 0px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+	
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 
@@ -116,19 +163,19 @@ body {
 }
 
 .cover-heading {
-	margin-bottom: 0;
+	margin-bottom: 40vh;
 	padding-top: 1%;
 	padding-left: 2.5%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size: 1.5vw;
+	font-size: 1vw;
 }
 
 .lead {
-	padding-bottom: 2.5%;
+	padding-bottom: 1%;
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.25vw;
-	text-decoration: none !important
+	font-size: 1vw;
+	text-decoration: none !important;
 }
 
 .lead-email {
@@ -136,9 +183,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	border-bottom: 0.1vh solid white;
 	padding-bottom: 0.75%;
-	text-decoration: none !important
+	text-decoration: none !important;
 }
-
 
 /*
  * Footer
