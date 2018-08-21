@@ -40,10 +40,18 @@ function createJobs(_data) {
       '<div>' +
         '<h2 class="job-title" href="'+link+'"">'+title+'</h2>' +
         '<p class="tags"><span>'+location+'</span><span>'+commitment+'</span></p>' +
-		'<span>'+description+'</span>' +
-		'<span>'+lists[0]["text"]+'</span>' +
-		'<span>'+lists[0]["content"]+'</span>' +
-		'<span>'+additional+'</span>' +
+		'<span>'+description+'</span><p></p><br>'
+	);
+	
+	for(j=0; j<lists.length; j++){
+		$('#jobs-container .jobs-list').append(
+		'<span>'+lists[j]["text"]+'</span><p></p>' +
+		'<span>'+lists[j]["content"]+'</span><p></p><br>'
+		);
+	}
+	
+	$('#jobs-container .jobs-list').append(
+		'<span>'+additional+'</span><p></p><br>' +
 		'<a class="btn" href="'+link2+'">Apply</a>' +
       '</div>'  
     );
