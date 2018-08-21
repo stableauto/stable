@@ -111,7 +111,7 @@ button:focus {
   padding-left: 1.5vw;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2vw;
 }
 
@@ -151,7 +151,7 @@ button:focus {
 	padding-top: 1%;
 	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 200 !important;
+	font-weight: 300;
 	font-size: 1vw;
 	color: #FDF0EF;
 }
@@ -160,7 +160,7 @@ button:focus {
 	padding-bottom: 1%;
 	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	color: #FDF0EF;
 	font-size: 1vw;
 	text-decoration: none !important;
@@ -169,7 +169,7 @@ button:focus {
 .lead-email {
 	font-size: 0.8vw;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	border-bottom: 0.1vh solid white;
 	padding-bottom: 0.75%;
 	text-decoration: none !important;
@@ -184,7 +184,7 @@ button:focus {
   padding-left: 1.5vw;
   font-size: 0.75vw;
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #FDF0EF;
   margin-top: 10vh;
 }
@@ -205,7 +205,7 @@ button:focus {
   font-size: 0.5vw;
   border-bottom: 0.1vh solid white;
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #FDF0EF;
 }
 .mastfoot4 {
