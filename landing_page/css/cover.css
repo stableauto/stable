@@ -4,7 +4,7 @@
  */
 
 /* Links */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900,800,700,600,500,400,300,200,100');
 * {-webkit-font-smoothing: antialiased;}
 a,
 a:focus,
@@ -69,6 +69,7 @@ input[type=text], select, textarea {
 	text-align: right;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
+	font-style: normal;
 	font-size: 0.8vw;
 	color: #FDF0EF;
 }
@@ -120,8 +121,9 @@ button:focus {
   text-align: right;
   padding-right: 1.5vw;
   font-family: 'Roboto', sans-serif;
+  font-weight: 'normal';
   color: #FDF0EF;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.5vw;
 }
 
@@ -149,7 +151,7 @@ button:focus {
 	padding-top: 1%;
 	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100 !important;
+	font-weight: 200 !important;
 	font-size: 1vw;
 	color: #FDF0EF;
 }
@@ -158,15 +160,16 @@ button:focus {
 	padding-bottom: 1%;
 	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 	color: #FDF0EF;
 	font-size: 1vw;
 	text-decoration: none !important;
-	font-weight: lighter;
 }
 
 .lead-email {
 	font-size: 0.8vw;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 	border-bottom: 0.1vh solid white;
 	padding-bottom: 0.75%;
 	text-decoration: none !important;
@@ -181,6 +184,7 @@ button:focus {
   padding-left: 1.5vw;
   font-size: 0.75vw;
   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   color: #FDF0EF;
   margin-top: 10vh;
 }
@@ -191,6 +195,7 @@ button:focus {
   font-size: 0.5vw;
   padding-bottom: 0.5vh;
   font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   color: #FDF0EF;
   margin-top: 10vh;
 }
@@ -200,6 +205,7 @@ button:focus {
   font-size: 0.5vw;
   border-bottom: 0.1vh solid white;
   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   color: #FDF0EF;
 }
 .mastfoot4 {
