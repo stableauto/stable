@@ -102,13 +102,12 @@ button:focus {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
 }
 
 .masthead-brand {
   margin-bottom: 0;
   padding-top: 1%;
-  padding-left: 2vw;
+  padding-left: 1.5vw;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
   font-weight: 500;
@@ -119,43 +118,16 @@ button:focus {
   margin-bottom: 0;
   padding-top: 1%;
   text-align: right;
-  padding-right: 2vw;
+  padding-right: 1.5vw;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
   font-weight: 500;
-  font-size: 1.75vw;
-}
-
-.nav-masthead .nav-link {
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  padding-top: 20%;
-  padding-right: 2vw;
-  font-size: 1.75vw;
-  color: #FDF0EF;
-  font-family: 'Roboto', sans-serif;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
+  font-size: 1.5vw;
 }
 
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
-  }
-  .nav-masthead {
-    float: right;
   }
   
   .cover-heading {
@@ -175,7 +147,7 @@ button:focus {
 
 .cover-heading {
 	padding-top: 1%;
-	padding-left: 2vw;
+	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 1vw;
@@ -184,7 +156,7 @@ button:focus {
 
 .lead {
 	padding-bottom: 1%;
-	padding-left: 2vw;
+	padding-left: 1.5vw;
 	font-family: 'Roboto', sans-serif;
 	color: #FDF0EF;
 	font-size: 1vw;
@@ -206,7 +178,7 @@ button:focus {
  */
 .mastfoot1 {
   color: rgb(255, 255, 255);
-  padding-left: 2vw;
+  padding-left: 1.5vw;
   font-size: 0.75vw;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
@@ -215,9 +187,9 @@ button:focus {
 
 .mastfoot2 {
   color: rgba(255, 255, 255, .5);
-  padding-left: 2vw;
+  padding-left: 1.5vw;
   font-size: 0.5vw;
-  padding-bottom: 1.5%;
+  padding-bottom: 0.5vh;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
   margin-top: 10vh;
@@ -232,7 +204,7 @@ button:focus {
 }
 .mastfoot4 {
   color: rgb(255, 255, 255);
-  padding-left: 2vw;
+  padding-left: 1.5vw;
   font-size: 0.75vw;
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
