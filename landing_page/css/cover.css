@@ -70,11 +70,11 @@ input[type=text], select, textarea {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 0.8vw;
-	color: white;
+	color: #FDF0EF;
 }
 
 ::placeholder {
-    color: white;
+    color: #FDF0EF;
     opacity: 1;
 }
 
@@ -108,20 +108,33 @@ button:focus {
 .masthead-brand {
   margin-bottom: 0;
   padding-top: 1%;
-  padding-left: 2.5%;
+  padding-left: 2vw;
   font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
   font-weight: 500;
   font-size: 2vw;
 }
 
+.join-brand {
+  margin-bottom: 0;
+  padding-top: 1%;
+  text-align: right;
+  padding-right: 2vw;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
+  font-weight: 500;
+  font-size: 1.75vw;
+}
+
 .nav-masthead .nav-link {
-  padding: .25rem 0;
   font-weight: 700;
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   padding-top: 20%;
   padding-right: 2vw;
   font-size: 1.75vw;
+  color: #FDF0EF;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-masthead .nav-link:hover,
@@ -155,27 +168,28 @@ button:focus {
  * Cover
  */
 .cover {
-	padding-left: 2.5%;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
-  font-weight: 700;
 }
 
 .cover-heading {
-	margin-bottom: 40vh;
 	padding-top: 1%;
-	padding-left: 2.5%;
+	padding-left: 2vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 1vw;
+	color: #FDF0EF;
 }
 
 .lead {
 	padding-bottom: 1%;
+	padding-left: 2vw;
 	font-family: 'Roboto', sans-serif;
+	color: #FDF0EF;
 	font-size: 1vw;
 	text-decoration: none !important;
+	font-weight: lighter;
 }
 
 .lead-email {
@@ -184,6 +198,7 @@ button:focus {
 	border-bottom: 0.1vh solid white;
 	padding-bottom: 0.75%;
 	text-decoration: none !important;
+	color: #FDF0EF;
 }
 
 /*
@@ -191,24 +206,39 @@ button:focus {
  */
 .mastfoot1 {
   color: rgb(255, 255, 255);
-  padding-left: 1%;
+  padding-left: 2vw;
   font-size: 0.75vw;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
+  margin-top: 10vh;
 }
 
 .mastfoot2 {
   color: rgba(255, 255, 255, .5);
-  padding-left: 1%;
+  padding-left: 2vw;
   font-size: 0.5vw;
   padding-bottom: 1.5%;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
+  margin-top: 10vh;
 }
 
 .mastfoot3 {
   color: rgb(255, 255, 255);
   font-size: 0.5vw;
   border-bottom: 0.1vh solid white;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
+}
+.mastfoot4 {
+  color: rgb(255, 255, 255);
+  padding-left: 2vw;
+  font-size: 0.75vw;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF0EF;
 }
 
 img.mastfoot{
-	max-height: 2vh;
+	max-height: 1vw;
 	padding-right: 0.75vh;
 }
