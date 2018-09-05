@@ -45,7 +45,7 @@ function createJobs(_data) {
 	
 	for(j=0; j<lists.length; j++){
 		$('#jobs-container .jobs-list').append(
-		'<span>'+lists[j]["text"]+'</span><p></p>' +
+		'<span><b>'+lists[j]["text"]+'</b></span><p></p>' +
 		'<span>'+lists[j]["content"]+'</span><p></p><br>'
 		);
 	}
