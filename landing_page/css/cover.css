@@ -57,7 +57,7 @@ body {
 }
 
 input[type=text], select, textarea {
-    width: 18.5vw;
+    width: calc(250px + 9.5vw);
     padding: 0.0vw 0vw;
     margin: 0.0vw 0;
     
@@ -70,7 +70,7 @@ input[type=text], select, textarea {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 0.95vw;
+	font-size:  calc(13px + 0.475vw);;
 	color: #FDF0EF;
 }
 
@@ -112,7 +112,7 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
   font-weight: 400;
-  font-size: 1.85vw;
+  font-size: calc(25px + 0.85vw);
 }
 
 .join-brand {
@@ -124,7 +124,7 @@ button:focus {
   font-weight: 'normal';
   color: #FDF0EF;
   font-weight: 300;
-  font-size: 1.25vw;
+  font-size: calc(17px + 0.65vw);
 }
 
 @media (min-width: 48em) {
@@ -151,7 +151,7 @@ button:focus {
 	padding-left: 1.65vw;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 1vw;
+	font-size: calc(13.5px + 0.45vw);
 	color: #FDF0EF;
 }
 
@@ -161,12 +161,12 @@ button:focus {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #FDF0EF;
-	font-size: 1.15vw;
+	font-size: calc(15.5px + 0.5vw);
 	text-decoration: none !important;
 }
 
 .lead-email {
-	font-size: 0.95vw;
+	font-size: calc(13px + 0.475vw);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	border-bottom: 0.1vh solid white;
@@ -181,7 +181,7 @@ button:focus {
 .mastfoot1 {
   color: rgb(255, 255, 255);
   padding-left: 1.5vw;
-  font-size: 1vw;
+  font-size: calc(13.5px + 0.45vw);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   color: #FDF0EF;
@@ -190,7 +190,7 @@ button:focus {
 
 .mastfoot2 {
   padding-left: 1.5vw;
-  font-size: 0.6vw;
+  font-size: calc(10px + 0.3vw);
   padding-bottom: 0.5vh;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -200,8 +200,9 @@ button:focus {
 
 .mastfoot3 {
   padding-top: 0.75vh;
+  padding-bottom: 0.0vh;
   color: rgb(255, 255, 255);
-  font-size: 0.5vw;
+  font-size: calc(6.75px + 0.225vw);
   border-bottom: 0.1vh solid white;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -210,19 +211,20 @@ button:focus {
 .mastfoot4 {
   color: rgb(255, 255, 255);
   padding-left: 1.5vw;
-  font-size: 0.75vw;
+  font-size: calc(10px + 0.35vw);
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
 }
 
 img.mastfoot{
 	padding-top: 0.75vh;
-	max-height: 1.5vw;
+	max-height: calc(20px + 0.7vw);
 	padding-right: 1vw;
 }
 
 hr{
 	border-color: #FDF0EF;
 	border-width: 1px;
-	width: 25vw;
+	width: calc(275px + 10vw);
+	padding-left: 1.5vw;
 }
