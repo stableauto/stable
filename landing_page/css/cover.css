@@ -57,7 +57,7 @@ body {
 }
 
 input[type=text], select, textarea {
-    width: calc(250px + 9.5vw);
+    width: calc(252px + 9.5vw);
     padding: 0.0vw 0vw;
     margin: 0.0vw 0;
     
