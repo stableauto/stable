@@ -36,7 +36,13 @@
 	
 	<style>
 
-	@media only screen and (max-width: 410px) {
+	@media only screen and (max-width: 414px) {
+		input[type=text], select, textarea {
+			width: calc(274px + 10vw);
+		}
+	}
+	
+	@media (-webkit-min-device-pixel-ratio: 2) {
 		input[type=text], select, textarea {
 			width: calc(274px + 10vw);
 		}
