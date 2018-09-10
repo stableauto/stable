@@ -102,29 +102,28 @@ button:focus {
 /*
  * Header
  */
-.masthead {
-}
 
-.masthead-brand {
-  margin-bottom: 0;
-  padding-top: 1%;
+.diatom-brand {
   padding-left: 1.5vw;
+  
   font-family: 'Roboto', sans-serif;
   color: #FDF0EF;
   font-weight: 400;
   font-size: calc(25px + 0.85vw);
+  
+  text-align: left;
 }
 
 .join-brand {
-  margin-bottom: 0;
-  padding-top: 1%;
   text-align: right;
   padding-right: 1.5vw;
+  
   font-family: 'Roboto', sans-serif;
   font-weight: 'normal';
   color: #FDF0EF;
   font-weight: 300;
   font-size: calc(17px + 0.65vw);
+  padding-top:8px;
 }
 
 @media (min-width: 48em) {
@@ -157,7 +156,7 @@ button:focus {
 
 .lead {
 	padding-bottom: 1%;
-	padding-left: 1.5vw;
+	margin-left: calc(17px + 1.5vw);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #FDF0EF;
@@ -178,9 +177,9 @@ button:focus {
 /*
  * Footer
  */
-.mastfoot1 {
+.footer-title {
   color: rgb(255, 255, 255);
-  padding-left: 1.5vw;
+  padding-left: calc(17px + 1.5vw);
   font-size: calc(13.5px + 0.45vw);
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -188,17 +187,15 @@ button:focus {
   margin-top: 5vh;
 }
 
-.mastfoot2 {
-  padding-left: 1.5vw;
-  font-size: calc(10px + 0.3vw);
-  padding-bottom: 0.5vh;
+.vc-logos {
+  color: rgb(255, 255, 255);
+  padding-left: calc(17px + 1.5vw);
+  font-size: calc(10px + 0.35vw);
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  color: rgba(253,240,239,0.5);
-  margin-top: 5vh;
+  color: #FDF0EF;
 }
 
-.mastfoot3 {
+.vc-others {
   padding-top: 0.75vh;
   padding-bottom: 0.0vh;
   color: rgb(255, 255, 255);
@@ -208,13 +205,19 @@ button:focus {
   font-weight: 300;
   color: #FDF0EF;
 }
-.mastfoot4 {
-  color: rgb(255, 255, 255);
-  padding-left: 1.5vw;
-  font-size: calc(10px + 0.35vw);
+
+.copyright {
+  padding-left: calc(17px + 1.5vw);
+  font-size: calc(10px + 0.3vw);
+  padding-bottom: 0.5vh;
   font-family: 'Roboto', sans-serif;
-  color: #FDF0EF;
+  font-weight: 100;
+  color: rgba(253,240,239,0.5);
+  margin-top: 5vh;
 }
+
+
+
 
 img.mastfoot{
 	padding-top: 0.75vh;
@@ -222,9 +225,9 @@ img.mastfoot{
 	padding-right: 1vw;
 }
 
-hr{
+hr.brandhr{
 	border-color: #FDF0EF;
-	border-width: 1px;
-	width: calc(275px + 10vw);
-	padding-left: 1.5vw;
+	border-width: 1px; 
+	width: calc(275px + 10vw); 
+	margin-left: calc(17px + 1.5vw);
 }
