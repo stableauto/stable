@@ -49,7 +49,7 @@ body {
   display: flex;
   color: #fff;
   box-shadow: none;
-  
+  min-width: 331px;
 }
 
 .cover-container {
