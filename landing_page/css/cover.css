@@ -156,7 +156,6 @@ button:focus {
 
 .lead {
 	padding-bottom: 1%;
-	margin-left: calc(17px + 1.5vw);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #FDF0EF;
@@ -172,6 +171,11 @@ button:focus {
 	padding-bottom: 0.75%;
 	text-decoration: none !important;
 	color: #FDF0EF;
+	
+}
+
+.leads{
+	margin-left: calc(17px + 1.5vw);
 }
 
 /*
