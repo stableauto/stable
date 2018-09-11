@@ -192,6 +192,10 @@ button:focus {
   margin-top: 5vh;
 }
 
+.footer-space {
+	margin-right: 100%;
+}
+
 .vc-logos {
   color: rgb(255, 255, 255);
   padding-left: calc(17px + 1.5vw);
