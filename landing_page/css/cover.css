@@ -148,7 +148,7 @@ button:focus {
 }
 
 .cover-heading {
-	padding-left: 1.65vw;
+	padding-left: calc(5px + 1.5vw);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: calc(13.5px + 0.45vw);
