@@ -48,6 +48,6 @@ $.ajax({
 //Making each job description a link
 $("#jobs-container").on("click", ".job", function() {
     var link = $(this).data("link");
-	var link2 = 'desc?jobID='+$.trim(link).substring(37,link.length);
+	var link2 = 'desc/?jobID='+$.trim(link).substring(37,link.length);
     window.location.href = link2;
 });
