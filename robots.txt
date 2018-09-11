@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /favicon/
+Disallow: /jobs/js/
+Disallow: /jobs/css/
+Disallow: /jobs/stylus/
+Disallow: /jobs/desc/js/
