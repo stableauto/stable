@@ -52,10 +52,6 @@ body {
   min-width: 331px;
 }
 
-.cover-container {
-
-}
-
 input[type=text], select, textarea {
     width: calc(252px + 9.5vw);
     padding: 0.0vw 0vw;
@@ -127,25 +123,11 @@ button:focus {
   padding-top:8px;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  
-  .cover-heading {
-	  float: left;
-  }
-}
 
 
 /*
  * Cover
  */
-.cover {
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-}
 
 .cover-heading {
 	padding-left: calc(5px + 1.5vw);
@@ -162,6 +144,10 @@ button:focus {
 	color: #FDF0EF;
 	font-size: calc(15.5px + 0.5vw);
 	text-decoration: none !important;
+}
+
+.lead-space {
+	margin-right: 0%;
 }
 
 .lead-email {
