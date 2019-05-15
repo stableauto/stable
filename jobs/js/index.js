@@ -1,4 +1,3 @@
-// Replace "leverdemo" with your own company name
 url = 'https://api.lever.co/v0/postings/diatomrobotics?mode=json'
 
 //Checking for potential Lever source or origin parameters
@@ -24,7 +23,7 @@ function createJobs(_data) {
     var commitment = posting.categories.commitment;
     var team = posting.categories.team;
     var link = posting.hostedUrl;
-	var link2 = 'jobs.html?jobID='+$.trim(link).substring(37,link.length);
+	var link2 = 'desc/?jobID='+$.trim(link).substring(37,link.length);
 
     $('#jobs-container .jobs-list').append(
       '<div data-link="'+link+'" class="job '+team+' '+location+' '+commitment+'">' +
