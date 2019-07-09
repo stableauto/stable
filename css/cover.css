@@ -34,7 +34,7 @@ html,
 body {
   height: 100%;
   background-image: url("../unordered_black.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center; 
   -webkit-background-size: cover;
