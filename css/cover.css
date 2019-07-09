@@ -33,7 +33,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("../unordered_black.png");
+  background-image: url("../background.jpg");
   background-repeat: repeat;
  background-attachment: fixed;
   background-position: center center; 
